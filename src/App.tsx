@@ -12,7 +12,6 @@ export const App = () => {
 
   return (
     <div className="text-center">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <section>
         <h1>Amazing scientists</h1>
         {people.map((person) => (
@@ -23,11 +22,12 @@ export const App = () => {
           />
         ))}
       </section>
-      <header className="app-header">
-        <img src={logo} className="app-logo" alt="logo" />
+      <header className="flex flex-col min-h-screen text-3xl text-white bg-gray-800 justify-center items-center font-size">
+        <img src={logo} className="h-80 hover:animate-spin" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
           <button
+            className="bg-blue-500 hover:bg-purple-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
             type="button"
             onClick={() => setCount((num) => num + diffNum)}
           >
