@@ -11,7 +11,7 @@ export const App = () => {
     [count, setCount] = useState(initialNum);
 
   return (
-    <div className="app">
+    <div className="text-center">
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <section>
         <h1>Amazing scientists</h1>
