@@ -12,6 +12,7 @@ export const App = () => {
 
   return (
     <div className="app">
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <section>
         <h1>Amazing scientists</h1>
         {people.map((person) => (
@@ -38,7 +39,7 @@ export const App = () => {
         </p>
         <p>
           <a
-            className="app-link"
+            className="text-cyan-400"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
@@ -47,7 +48,7 @@ export const App = () => {
           </a>
           {" | "}
           <a
-            className="app-link"
+            className="text-cyan-400"
             href="https://vitejs.dev/guide/features.html"
             target="_blank"
             rel="noopener noreferrer"
