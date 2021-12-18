@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 import { Profile } from "@/components/Profile";
 import logo from "./logo.svg";
 import { people } from "./data";
@@ -22,12 +22,12 @@ export const App = () => {
           />
         ))}
       </section>
-      <header className="flex flex-col min-h-screen text-3xl text-white bg-gray-800 justify-center items-center font-size">
+      <header className="flex flex-col justify-center items-center min-h-screen text-3xl text-white bg-gray-800">
         <img src={logo} className="h-80 hover:animate-spin" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
           <button
-            className="bg-blue-500 hover:bg-purple-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+            className="py-2 px-4 font-bold text-white bg-blue-500 hover:bg-purple-400 rounded border-b-4 border-blue-700 hover:border-blue-500"
             type="button"
             onClick={() => setCount((num) => num + diffNum)}
           >

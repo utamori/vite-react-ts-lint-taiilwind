@@ -11,6 +11,7 @@ module.exports = {
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:tailwindcss/recommended",
     "prettier",
   ],
   parser: "@typescript-eslint/parser",
@@ -30,6 +31,7 @@ module.exports = {
     "prefer-arrow",
     "react",
     "react-hooks",
+    "tailwindcss",
   ],
   root: true,
   rules: {
